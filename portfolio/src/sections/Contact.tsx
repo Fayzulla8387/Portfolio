@@ -7,7 +7,7 @@ export default function Contact() {
     <section id="contact" className="section-pad">
       <div className="container max-w-2xl">
         <SectionHeading title={t.contact.title} subtitle={t.contact.subtitle} />
-        <form action="https://formspree.io/f/XXXXXX" method="POST" className="space-y-4">
+        <form action="https://formspree.io/f/xrbyjzyl" method="POST" className="space-y-4">
           <div>
             <label htmlFor="name" className="block text-sm font-medium">{t.contact.name}</label>
             <input id="name" name="name" required className="mt-1 w-full rounded border border-base-200 px-3 py-2 bg-white" />
